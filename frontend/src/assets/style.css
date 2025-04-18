@@ -1,0 +1,64 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #191919;
+}
+
+.navigation-header {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 0 100px;
+  background: #cacaca;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+.navigation-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  list-style: none;
+}
+.navigation-header a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+  color: #191919;
+  text-decoration: none;
+  font-size: 2rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  transition: 200ms;
+}
+.navigation-header a:-moz-any-link {
+  text-decoration: none;
+  color: #191919;
+}
+.navigation-header a:any-link {
+  text-decoration: none;
+  color: #191919;
+}
+.navigation-header li {
+  height: 100%;
+  transition: 200ms;
+}
+.navigation-header li:hover {
+  background: #b1b1b1;
+  transition: 200ms;
+}
+.navigation-header li:hover a {
+  background: linear-gradient(105deg, #00c562, #1757bf) text;
+  color: transparent;
+}/*# sourceMappingURL=style.css.map */
