@@ -27,7 +27,13 @@ const router = createRouter({
       name: 'login',
       component: () => import('../pages/LoginPage.vue'),
       meta: { title: 'Login' },
-    }
+    },
+    {
+      path: '/exercise/:id',
+      name: 'exercise',
+      component: () => import('../pages/ExercisePage.vue'),
+      meta: { title: 'Exercise' },
+    },
   ],
 })
 
