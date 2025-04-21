@@ -34,6 +34,12 @@ const router = createRouter({
       component: () => import('../pages/ExercisePage.vue'),
       meta: { title: 'Exercise' },
     },
+    {
+      path: '/:notFound(.*)',
+      name: 'not-found',
+      component: import('../pages/NotFoundPage.vue'),
+      meta: { title: '404 Not Found' },
+    }
   ],
 })
 

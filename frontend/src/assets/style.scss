@@ -82,6 +82,38 @@ main {
     }
 }
 
+#navigation-hamburger-label {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    z-index: 1000;
+
+    width: 50px;
+    height: 50px;
+
+    background: $secondary-light;
+    color: $primary-dark;
+    font-size: 1.5em;
+    text-align: center;
+
+    border-radius: 50%;
+
+    &.dark-mode {
+        background: $secondary-dark;
+        color: $primary-light;
+    }
+}
+
+#navigation-hamburger-input {
+    display: none;
+}
+
 .navigation-header {
     $text-size: 2rem;
 
@@ -100,6 +132,8 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        position: relative;
 
         margin: 0;
         padding: 0;
@@ -147,6 +181,10 @@ main {
                 color: transparent;
             }
         }
+    }
+
+    &.closed {
+        display: none;
     }
 
     &.dark-mode {
@@ -338,7 +376,7 @@ main {
     justify-content: center;
     align-items: center;
 
-    position: fixed;
+    position: absolute;
     top: 10px;
     right: 10px;
 
@@ -377,7 +415,7 @@ main {
         width: 100%;
 
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
 
         user-select: none;
 
@@ -388,5 +426,72 @@ main {
 
     input[type=checkbox] {
         display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    .wrapper {
+        h1 {
+            align-self: center;
+            text-align: center;
+        }
+    }
+
+    #navigation-hamburger-label {
+        display: flex;
+    }
+
+    .navigation-header {
+        margin: 0;
+        padding: 0;
+
+        width: 100%;
+
+        border-radius: 0;
+
+        ul {
+            flex-direction: column;
+            justify-content: center;
+
+            margin: 10px 0;
+
+            width: 100%;
+            height: fit-content;
+        }
+
+        a {
+            padding: 10px 0;
+
+            width: 100%;
+
+            text-align: center;
+        }
+
+        li {
+            width: 100%;
+
+            &:hover {
+                background: darken($color: $secondary-light, $amount: 10);
+
+                transition: 200ms;
+
+                a {
+                    background: linear-gradient(105deg, $green, $blue) text;
+                    color: transparent;
+                }
+            }
+        }
+    }
+
+    .exercises-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .exercise-container {
+        flex-direction: column;
+
+        #left, #right {
+            width: 100%;
+        }
     }
 }

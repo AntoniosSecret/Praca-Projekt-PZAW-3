@@ -3,15 +3,16 @@
 
     let navigationHeader = null
     let footer = null
+    let navigationLabel = null
     let darkmodeSwitch = null
 
     const body = document.body
 
     const applyDarkMode = () => {
-        // Check if body already has the dark-mode class
         if (body.classList.contains('dark-mode')) {
             navigationHeader?.classList.add('dark-mode')
             footer?.classList.add('dark-mode')
+            navigationLabel?.classList.add('dark-mode')
             darkmodeSwitch?.classList.add('dark-mode')
         }
     }
@@ -20,18 +21,18 @@
         body.classList.toggle('dark-mode')
         navigationHeader?.classList.toggle('dark-mode')
         footer?.classList.toggle('dark-mode')
+        navigationLabel?.classList.toggle('dark-mode')
         darkmodeSwitch?.classList.toggle('dark-mode')
         const isDarkMode = body.classList.contains('dark-mode')
         localStorage.setItem('dark-mode', isDarkMode ? 'enabled' : 'disabled')
     }
 
     onMounted(() => {
-        // Initialize references to elements
         navigationHeader = document.querySelector('.navigation-header')
         footer = document.querySelector('.page-footer')
+        navigationLabel = document.getElementById('navigation-hamburger-label')
         darkmodeSwitch = document.getElementById('dark-mode-toggle')
 
-        // Apply dark mode if it is already enabled
         applyDarkMode()
     })
 </script>

@@ -8,8 +8,12 @@
     const message = ref('Loading...')
 
     onMounted(async () => {
-        const res = await axios.get('http://127.0.0.1:8000/api/profile/')
-        message.value = res.data.message
+        try {
+            const res = await axios.get('http://127.0.0.1:8000/api/profile/')
+            message.value = res.data.message
+        } catch (error) {
+            console.error('Error fetching message:', error)
+        }
     })
 </script>
 
@@ -17,6 +21,9 @@
     <Navigation/>
     <DarkModeToggle/>
     <main>
+        <div class="wrapper">
+            <h1>Profile</h1>
+        </div>
         {{ message }}
         <!--
         
