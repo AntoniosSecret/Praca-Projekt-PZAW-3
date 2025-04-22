@@ -2,7 +2,9 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .models import AllExercises
-from .serializers import AllExercisesSerializer
+from .serializers import AllExercisesSerializer, RegisterSerializer
+from django.contrib.auth.models import User
+from rest_framework import generics
 
 
 class HomeView(APIView):    
@@ -32,3 +34,7 @@ class ExerciseView(APIView):
             return Response(serializer.data)
         except AllExercises.DoesNotExist:
             return Response({"error": "Exercise not found"}, status=404)
+
+class RegisterView(generics.CreateAPIView):
+    queryset = User.objects.all()
+    serializer_class = RegisterSerializer

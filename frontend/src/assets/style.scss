@@ -1,5 +1,5 @@
-$green: #0b703d;
-$blue: #1757bf;
+$color-1: #d2c91b;
+$color-2: #ce2424;
 
 $primary-light: #ebebeb;
 $secondary-light: #cacaca;
@@ -9,6 +9,10 @@ $secondary-dark: #222222;
 
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+    width: 200px;
 }
 
 body {
@@ -177,7 +181,7 @@ main {
             transition: 200ms;
 
             a {
-                background: linear-gradient(105deg, $green, $blue) text;
+                background: linear-gradient(105deg, $color-1, $color-2) text;
                 color: transparent;
             }
         }
@@ -201,7 +205,7 @@ main {
                 transition: 200ms;
 
                 a {
-                    background: linear-gradient(105deg, $green, $blue) text;
+                    background: linear-gradient(105deg, $color-1, $color-2) text;
                     color: transparent;
                 }
             }
@@ -332,14 +336,10 @@ main {
         margin: 5px 0;
         padding: 0;
 
-        width: $block-size;
-
         font-size: 2rem;
     }
 
     #equipment {
-        width: $block-size;
-
         color: lighten($color: $primary-dark, $amount: 30);
         font-size: 1rem;
         text-align: start;
@@ -476,7 +476,7 @@ main {
                 transition: 200ms;
 
                 a {
-                    background: linear-gradient(105deg, $green, $blue) text;
+                    background: linear-gradient(105deg, $color-1, $color-2) text;
                     color: transparent;
                 }
             }

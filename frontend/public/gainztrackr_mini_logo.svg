@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="50.233mm" height="31.417mm" version="1.1" viewBox="0 0 50.233 31.417" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.632 -54.902)">
+  <g transform="matrix(.99235 0 -.086819 .99235 1.0999 26.778)" fill="#800000">
+   <rect transform="matrix(1 0 .050108 .99874 0 0)" x="62.491" y="40.05" width="29.858" height="10.013"/>
+   <path d="m65 30a15 15 0 0 0-8 2.3208v25.358a15 15 0 0 0 8 2.3213 15 15 0 0 0 8-2.3146v-25.341a15 15 0 0 0-8-2.344z"/>
+   <path d="m94.357 30a15 15 0 0 0-8 2.3208v25.358a15 15 0 0 0 8 2.3213 15 15 0 0 0 8-2.3141v-25.342a15 15 0 0 0-8-2.344z"/>
+  </g>
+  <g transform="matrix(.99235 0 -.086819 .99235 -1.924 25.131)" fill="#ce2424">
+   <path d="m65 30a15 15 0 0 0-8 2.3208v25.358a15 15 0 0 0 8 2.3213 15 15 0 0 0 8-2.3146v-25.341a15 15 0 0 0-8-2.344z"/>
+   <path d="m94.357 30a15 15 0 0 0-8 2.3208v25.358a15 15 0 0 0 8 2.3213 15 15 0 0 0 8-2.3141v-25.342a15 15 0 0 0-8-2.344z"/>
+   <rect transform="matrix(1 0 .049688 .99876 0 0)" x="62.508" y="40.049" width="29.858" height="9.9006"/>
+  </g>
+  <text transform="skewX(-5)" x="72.953438" y="73.21698" fill="#000000" font-size="9.5514px" stroke-width=".099494" xml:space="preserve"><tspan x="72.953438" y="73.21698" font-family="'Century Gothic'" font-size="9.5514px" stroke-width=".099494" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GT</tspan></text>
+ </g>
+</svg>

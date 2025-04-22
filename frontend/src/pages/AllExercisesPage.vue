@@ -6,7 +6,6 @@
     import ExerciseBlock from '@/components/ExerciseBlock.vue'
     import Footer from '@/components/Footer.vue'
     import DarkModeToggle from '@/components/DarkModeToggle.vue'
-    import catImage from '@/assets/cat.jpg'
 
     const exercises = ref([])
 
@@ -36,10 +35,6 @@
                     {{ exercise.target_muscle }}<br> -->
                     <ExerciseBlock :imageSrc="exercise.image_url"/>
                 </RouterLink>
-                <ExerciseBlock :imageSrc="catImage" />
-                <ExerciseBlock :imageSrc="catImage" />
-                <ExerciseBlock :imageSrc="catImage" />
-                <ExerciseBlock :imageSrc="catImage" />
             </section>
         </div>
     </main>

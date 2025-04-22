@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="93.334831mm"
+   height="37.854839mm"
+   viewBox="0 0 93.334831 37.854839"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="gainztrackr_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="4"
+     inkscape:cx="167.25"
+     inkscape:cy="124.125"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-54.781679,-26.770803)">
+    <g
+       id="g8"
+       transform="matrix(1,-0.08748866,-0.17497732,1.0076543,7.8739964,8.4043453)">
+      <g
+         id="g6-1"
+         style="fill:#800000;stroke:none;stroke-opacity:1"
+         transform="translate(3.1924234,1.6599521)">
+        <rect
+           style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.575534;stroke-opacity:1"
+           id="rect4-6"
+           width="70"
+           height="10"
+           x="65"
+           y="40" />
+        <path
+           id="path3-85"
+           style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.23632;stroke-opacity:1"
+           d="m 65.000167,30.000236 a 15,15 0 0 0 -8.000029,2.320789 V 57.67865 a 15,15 0 0 0 8.000029,2.321305 15,15 0 0 0 8.000028,-2.314587 V 32.344279 a 15,15 0 0 0 -8.000028,-2.344043 z" />
+        <path
+           id="path3-8-7"
+           style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.23632;stroke-opacity:1"
+           d="M 135.00003,30.000236 A 15,15 0 0 0 127,32.321025 V 57.67865 a 15,15 0 0 0 8.00003,2.321305 15,15 0 0 0 8.00003,-2.31407 V 32.344279 a 15,15 0 0 0 -8.00003,-2.344043 z" />
+      </g>
+      <g
+         id="g6"
+         style="stroke:none;stroke-opacity:1">
+        <path
+           id="path3"
+           style="fill:#ce2424;fill-opacity:1;stroke:none;stroke-width:0.23632;stroke-opacity:1"
+           d="m 65.000167,30.000236 a 15,15 0 0 0 -8.000029,2.320789 V 57.67865 a 15,15 0 0 0 8.000029,2.321305 15,15 0 0 0 8.000028,-2.314587 V 32.344279 a 15,15 0 0 0 -8.000028,-2.344043 z" />
+        <path
+           id="path3-8"
+           style="fill:#ce2424;fill-opacity:1;stroke:none;stroke-width:0.23632;stroke-opacity:1"
+           d="M 135.00003,30.000236 A 15,15 0 0 0 127,32.321025 V 57.67865 a 15,15 0 0 0 8.00003,2.321305 15,15 0 0 0 8.00003,-2.31407 V 32.344279 a 15,15 0 0 0 -8.00003,-2.344043 z" />
+        <rect
+           style="display:inline;fill:#ce2424;fill-opacity:1;stroke:none;stroke-width:0.575534;stroke-opacity:1"
+           id="rect4"
+           width="70"
+           height="10"
+           x="65"
+           y="40" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:9.62507px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.100261"
+         x="72.450218"
+         y="48.510944"
+         id="text1"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.62507px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.100261"
+           x="72.450218"
+           y="48.510944"
+           id="tspan2">GainzTrackr</tspan></text>
+    </g>
+  </g>
+</svg>

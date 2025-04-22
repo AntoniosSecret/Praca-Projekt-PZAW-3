@@ -1,5 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, useRoute } from 'vue-router'
 import HomePage from '@/pages/HomePage.vue'
+
+const route = useRoute()
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,6 +31,12 @@ const router = createRouter({
       meta: { title: 'Login' },
     },
     {
+      path: '/register',
+      name: 'register',
+      component: () => import('../pages/RegistrationPage.vue'),
+      meta: { title: 'Register' },
+    },
+    {
       path: '/exercise/:id',
       name: 'exercise',
       component: () => import('../pages/ExercisePage.vue'),
@@ -45,7 +53,8 @@ const router = createRouter({
 
 router.afterEach((to) => {
   const defaultTitle = 'Default Title'
-  document.title = to.meta.title + " :: GainzTrackr" || defaultTitle
+  const id = (to.params.id) ? ` ${to.params.id}` : ''
+  document.title = (to.meta.title + id + " :: GainzTrackr") || defaultTitle
 })
 
 export default router

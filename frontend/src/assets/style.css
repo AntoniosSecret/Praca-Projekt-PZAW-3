@@ -2,6 +2,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#logo {
+  width: 200px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -133,7 +137,7 @@ main {
   transition: 200ms;
 }
 .navigation-header li:hover a {
-  background: linear-gradient(105deg, #0b703d, #1757bf) text;
+  background: linear-gradient(105deg, #d2c91b, #ce2424) text;
   color: transparent;
 }
 .navigation-header.closed {
@@ -150,7 +154,7 @@ main {
   transition: 200ms;
 }
 .navigation-header.dark-mode li:hover a {
-  background: linear-gradient(105deg, #0b703d, #1757bf) text;
+  background: linear-gradient(105deg, #d2c91b, #ce2424) text;
   color: transparent;
 }
 
@@ -243,11 +247,9 @@ main {
 .exercise-container h1 {
   margin: 5px 0;
   padding: 0;
-  width: 400px;
   font-size: 2rem;
 }
 .exercise-container #equipment {
-  width: 400px;
   color: #5d5d5d;
   font-size: 1rem;
   text-align: start;
@@ -351,7 +353,7 @@ main {
     transition: 200ms;
   }
   .navigation-header li:hover a {
-    background: linear-gradient(105deg, #0b703d, #1757bf) text;
+    background: linear-gradient(105deg, #d2c91b, #ce2424) text;
     color: transparent;
   }
   .exercises-grid {

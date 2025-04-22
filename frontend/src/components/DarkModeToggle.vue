@@ -9,7 +9,9 @@
     const body = document.body
 
     const applyDarkMode = () => {
-        if (body.classList.contains('dark-mode')) {
+        const isDarkMode = localStorage.getItem('dark-mode') === 'enabled'
+        if (isDarkMode) {
+            body.classList.add('dark-mode')
             navigationHeader?.classList.add('dark-mode')
             footer?.classList.add('dark-mode')
             navigationLabel?.classList.add('dark-mode')
